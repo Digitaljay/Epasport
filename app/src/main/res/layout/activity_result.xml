@@ -4,6 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ResultActivity">
+    tools:context=".ResultActivity"
+    android:background="@drawable/wl2">
 
+    <TextView
+        android:id="@+id/totalResult"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:background="@drawable/rounded"
+        android:textColor="#1E1E3D"
+        android:textSize="24sp"
+        android:typeface="normal"
+        android:padding="10dp"
+        app:fontFamily="@font/roboto_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/totalResult"
+        app:layout_constraintTop_toTopOf="@+id/totalResult"
+        app:srcCompat="@drawable/circle" />
 </androidx.constraintlayout.widget.ConstraintLayout>
